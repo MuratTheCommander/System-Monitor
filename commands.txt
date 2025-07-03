@@ -1,0 +1,7 @@
+docker-compose up --build -d
+
+docker-compose up -d
+
+mvn test
+
+docker-compose down

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CPU Usage</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 40px; }
+        iframe { border: none; width: 90%; height: 500px; }
+        .back-button {
+          display: inline-block;
+          margin-top: 30px;
+          text-decoration: none;
+          background: #007bff;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+<h2>CPU Usage</h2>
+<iframe
+        src="http://localhost:3000/d-solo/aekoipgfb3ncwf/system-monitor?orgId=1&panelId=1&fullscreen&kiosk&theme=light&refresh=1s"
+        width="450"
+        height="200"
+        frameborder="0">
+</iframe>
+
+<br>
+<a href="index.html" class="back-button">← Back to Dashboard</a>
+</body>
+</html>

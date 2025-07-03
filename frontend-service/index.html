@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>System Resource Monitoring Dashboard</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f2f2f2;
+          text-align: center;
+          padding: 60px;
+        }
+        h1 {
+          font-size: 32px;
+          margin-bottom: 40px;
+          color: #333;
+        }
+        .button-grid {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+        .resource-button {
+          background-color: #007bff;
+          color: white;
+          padding: 15px 30px;
+          font-size: 18px;
+          border: none;
+          border-radius: 8px;
+          text-decoration: none;
+          transition: background-color 0.3s ease;
+          display: inline-block;
+        }
+        .resource-button:hover {
+          background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>System Resource Monitoring Dashboard</h1>
+
+<div class="button-grid">
+    <a class="resource-button" href="cpu.html">CPU</a>
+    <a class="resource-button" href="wifi.html">WiFi</a>
+    <a class="resource-button" href="memory.html">Memory</a>
+    <a class="resource-button" href="disk.html">Disk</a>
+</div>
+
+</body>
+</html>

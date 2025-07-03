@@ -1,0 +1,23 @@
+global:
+  scrape_interval: 1s
+
+scrape_configs:
+  - job_name: 'cpu'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['cpu-service:8081']
+
+  - job_name: 'memory'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['memory-service:8082']
+
+  - job_name: 'disk'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['disk-service:8083']
+
+  - job_name: 'wifi'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['wifi-service:8084']

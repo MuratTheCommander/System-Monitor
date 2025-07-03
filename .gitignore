@@ -1,0 +1,24 @@
+# Environment files
+.env
+
+# IDE configuration (IntelliJ, JetBrains)
+.idea/
+*.iml
+
+# Java/Maven build output
+target/
+*.class
+
+# Maven wrapper & settings
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker volumes / runtime data
+grafana-storage/
