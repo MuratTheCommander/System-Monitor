@@ -96,9 +96,12 @@ To integrate Grafana dashboards into the frontend:
 * HTML/CSS (Frontend)
 
 📝 License
-This project is intended for educational and demonstration purposes only.
-It is not production-ready, but you're welcome to fork it, explore the architecture, and adapt it to your needs.
+This project was created for **educational and demonstration purposes**.
+It is licensed under the [MIT License](LICENSE).
 
+> ⚠️ You are free to use, modify, and distribute this software under the terms of the MIT License.  
+> However, the authors are **not liable** for any damages, losses, or issues arising from the use of this code in any context, including commercial applications.  
+> Use it **at your own risk**.
 
 
 
